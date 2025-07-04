@@ -15,7 +15,6 @@ text=input('Enter the text that will be convert to morse code: ').upper()
 text_input=text
 
 
-
 for letter in text_input:
     if letter in morse_code_dict:
         word.append(morse_code_dict[letter])
